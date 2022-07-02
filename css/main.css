@@ -25,14 +25,24 @@ body {
   font: 16px "Catamaran", sans-serif;
   background: var(--bg);
   color: var(--co);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+span {
+  color: var(--pr);
 }
 
 button {
   font: inherit;
   color: inherit;
-  padding: 18px 32px;
-  background: var(--pr);
-  border-radius: 8px;
-  margin-left: 40px;
 }
 /*# sourceMappingURL=main.css.map */

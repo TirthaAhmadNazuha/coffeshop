@@ -23,12 +23,15 @@ body {
     font: 16px "Catamaran", sans-serif;
     background: var(--bg);
     color: var(--co);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span {
+    color: var(--pr);
 }
 button {
     font: inherit;
     color: inherit;
-    padding: 18px 32px;
-    background: var(--pr);
-    border-radius: 8px;
-    margin-left: 40px;
 }

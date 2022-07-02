@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+}
+:root {
+    --lightBg: #fefeff;
+    --lightCo: #111214;
+    --darkBg: #212122;
+    --darkCo: white;
+    --grayH: #767883af;
+    --grayL: #76788343;
+    --lightPr: rgb(211, 145, 47);
+    --darkPr: rgb(189, 132, 47);
+    --bg: var(--lightBg);
+    --co: var(--lightCo);
+    --pr: var(--lightPr);
+}
+html,
+body {
+    font: 16px "Catamaran", sans-serif;
+    background: var(--bg);
+    color: var(--co);
+}
+button {
+    font: inherit;
+    color: inherit;
+    padding: 18px 32px;
+    background: var(--pr);
+    border-radius: 8px;
+    margin-left: 40px;
+}

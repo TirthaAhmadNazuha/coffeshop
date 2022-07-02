@@ -17,6 +17,7 @@
     --bg: var(--lightBg);
     --co: var(--lightCo);
     --pr: var(--lightPr);
+    color-scheme: light;
 }
 html,
 body {
@@ -28,10 +29,21 @@ body {
     align-items: center;
     justify-content: center;
 }
+h1 {
+    margin: 0 23px;
+}
 span {
     color: var(--pr);
 }
 button {
     font: inherit;
     color: inherit;
+}
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --bg: var(--darkBg);
+        --co: var(--darkCo);
+        --pr: var(--darkPr);
+        color-scheme: dark;
+    }
 }

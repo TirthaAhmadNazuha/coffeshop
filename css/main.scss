@@ -6,14 +6,14 @@
     scroll-behavior: smooth;
 }
 :root {
-    --lightBg: #fefeff;
+    --lightBg: rgb(229, 252, 228);
     --lightCo: #111214;
-    --darkBg: #212122;
+    --darkBg: rgb(13, 14, 13);
     --darkCo: white;
     --grayH: #767883af;
     --grayL: #76788343;
-    --lightPr: rgb(211, 145, 47);
-    --darkPr: rgb(189, 132, 47);
+    --lightPr: rgb(77, 185, 34);
+    --darkPr: rgb(82, 221, 77);
     --bg: var(--lightBg);
     --co: var(--lightCo);
     --pr: var(--lightPr);
@@ -26,6 +26,7 @@ body {
     color: var(--co);
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -38,6 +39,10 @@ span {
 button {
     font: inherit;
     color: inherit;
+    padding: 18px 32px;
+    border-radius: 12px;
+    background: var(--pr);
+    color: var(--bg);
 }
 @media screen and (prefers-color-scheme: dark) {
     :root {

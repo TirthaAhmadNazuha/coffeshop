@@ -1,0 +1,14 @@
+{
+    "name": "Kopi kodingan",
+    "icons": [
+      {
+        "src": "https://a.wattpad.com/useravatar/Anime_Is_LIFEEEEEEE.256.921556.jpg",
+        "sizes": "256x256",
+        "type": "image/jpg"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#4db922",
+    "theme_color": "#4db922"
+  }

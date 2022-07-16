@@ -7,14 +7,14 @@
 }
 
 :root {
-  --lightBg: #fefeff;
+  --lightBg: rgb(229, 252, 228);
   --lightCo: #111214;
-  --darkBg: #212122;
+  --darkBg: rgb(13, 14, 13);
   --darkCo: white;
   --grayH: #767883af;
   --grayL: #76788343;
-  --lightPr: rgb(211, 145, 47);
-  --darkPr: rgb(189, 132, 47);
+  --lightPr: rgb(77, 185, 34);
+  --darkPr: rgb(82, 221, 77);
   --bg: var(--lightBg);
   --co: var(--lightCo);
   --pr: var(--lightPr);
@@ -30,6 +30,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -49,6 +53,10 @@ span {
 button {
   font: inherit;
   color: inherit;
+  padding: 18px 32px;
+  border-radius: 12px;
+  background: var(--pr);
+  color: var(--bg);
 }
 
 @media screen and (prefers-color-scheme: dark) {
